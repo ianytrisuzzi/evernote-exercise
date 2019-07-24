@@ -1,0 +1,133 @@
+/*#54B24C*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    font-size: 12px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    margin-left: 30px;
+}
+
+h2{
+    font-size: 40px;
+    color: black
+}
+
+.button-green-outline{
+    background-color: ffffff;
+    font-size: 10px;
+    color: #54B24C;
+    padding: 10px 25px 10px 25px;
+    border: #54B24C 1px solid;
+    border-radius: 2px;*/
+}
+
+.button-white{
+    background-color: white;
+    font-size: 12px;
+    color: #54B24C;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 2px;
+}
+
+.evernote-logo{
+    height: 30px;
+    padding-bottom: 15px
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px 40px 150px;
+    align-items: center;
+}
+
+.nav-menu{
+    margin-right: 50px;
+    padding-right: 300px;
+}
+
+.nav-container > div > button{
+    margin-left: 10px
+}
+
+.nav-sign{
+    font-size: 12px
+}
+
+.nav-sign > a{
+    color: #54B24C;
+    margin-right: 10px;
+}
+
+header{
+    background-image: url("../images/BG-pattern.png");
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.header-text{
+    width: 450px;
+    margin-left: 100px
+}
+
+.header-img{
+    margin-right: 100px
+}
+
+.header-text > h1{
+    font-size: 50px
+}
+
+.header-text >h4{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.section1-focus{
+    background-color: #F7F7F7;
+    height: 750px;
+    text-align: center
+}
+
+.section1-focus > img{
+    margin: 70px;
+}
+
+.box-section1{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.box-section1 > h4{
+    width: 25%;
+    color: grey;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: normal;
+}
+    
